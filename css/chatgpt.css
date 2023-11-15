@@ -1,4 +1,4 @@
-.chatgpt-header {
+#chatgpt-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,18 +16,18 @@
     
 }
 
-.chatgpt-header:hover {
+#chatgpt-header:hover {
     background-color: rgba(238, 238, 238, 0.945);
     color: steelblue;
     border-color: steelblue;
 }
 
-.chatgpt-text {
+#chatgpt-text {
     color:steelblue;
     font-family:Impact, 'Arial Bold', sans-serif;
 }
 
-.chatgpt-logo-row {
+#chatgpt-logo-row {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,13 +41,13 @@
     box-shadow: -5px 0 5px 5.5px lightgray,5px 0 5px 5.5px lightgray;
 }
 
-.chatgpt-logo {
+#chatgpt-logo {
     max-width: 100px;
     max-height: 100px;
     border-radius: 60%;
 }
 
-.chatgpt-avatar_ariel-row, .chatgpt-avatar_elena-row {
+#chatgpt-avatar_ariel-row, #chatgpt-avatar_elena-row {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,41 +56,41 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ariel {
+#ariel {
     margin: 0px;
     color: steelblue;
     font-size: xx-large; 
 }  
 
-.aryel {
+#aryel {
     width: 90px;
     height: auto;
 }
 
-.chatgpt-ariel-github-logo {
+#chatgpt-ariel-github-logo {
     border-radius: 100%;
     width: 50px; 
     height: auto;
 }
 
-.yna {
+#yna {
     margin: 0px;
     color: steelblue;
     font-size: xx-large; 
 }
 
-.elena {
+#elena {
     width: 90px;
     height: auto;
 }
   
-.chatgpt-elena-github-logo {
+#chatgpt-elena-github-logo {
     border-radius: 100%;
     width: 50px; 
     height: auto;
 }
 
-.chatgpt-button-row .w3-block {
+#chatgpt-button-row .w3-block {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@
     text-align: center;
 }
 
-.chatgpt-visit-button {
+#chatgpt-visit-button {
     letter-spacing: 3px;
     font-size: 1.5rem;
     background-color: steelblue;
@@ -112,7 +112,7 @@
     box-shadow: -5px 0 5px 5.5px lightgray,5px 0 5px 5.5px lightgray;
 }
 
-.chatgpt-visit-button:hover {
+#chatgpt-visit-button:hover {
     background-color: rgba(238, 238, 238, 0.945);
     color: steelblue;
     border-color: steelblue;
